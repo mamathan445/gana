@@ -1,0 +1,157 @@
+html {
+  height: 100%;
+}
+h4{
+  color:black ;
+}
+body {
+  margin: -10px;
+  padding: 0;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url(img.jpg.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  
+}
+
+.music {
+  display: flex;
+  position: relative;
+  margin-left: 4px;
+}
+
+.blue-key {
+  width: 50px;
+  height: 100px;
+  background-color:white;
+  border: 4px solid black;
+  border-radius: 0 0 6px 6px;
+  margin-left: -4px;
+  outline: none;
+  cursor: pointer;
+}
+
+.blue-key.active {
+  background-color: #C0C0C0;
+}
+
+.yellow-key {
+  width: 50px;
+  height: 100px;
+  background-color:white;
+  border: 4px solid black;
+  border-radius: 0 0 6px 6px;
+  margin-left: -10px;
+  outline: none;
+  cursor: pointer;
+}
+
+.yellow-key.active {
+  background-color: #C0C0C0;
+}
+
+.pink-key {
+  width: 50px;
+  height: 100px;
+  background-color: white;
+  border: 4px solid black;
+  border-radius: 0 0 6px 6px;
+  margin-left: -10px;
+  outline: none;
+  cursor: pointer;
+}
+
+.pink-key.active {
+  background-color: #C0C0C0;
+}
+
+.orange-key {
+  width: 50px;
+  height: 100px;
+  background-color: white;
+  border: 4px solid black;
+  border-radius: 0 0 6px 6px;
+  margin-left: -10px;
+  outline: none;
+  cursor: pointer;
+}
+
+.orange-key.active {
+  background-color: #C0C0C0;
+}
+
+.violet-key {
+  width: 50px;
+  height: 100px;
+  background-color: white;
+  border: 4px solid black;
+  border-radius: 0 0 6px 6px;
+  margin-left: -10px;
+  outline: none;
+  cursor: pointer;
+}
+
+.violet-key.active {
+  background-color: #C0C0C0;
+}
+
+.red-key {
+  width: 50px;
+  height: 100px;
+  background-color: white;
+  border: 4px solid black;
+  border-radius: 0 0 6px 6px;
+  margin-left: -10px;
+  outline: none;
+  cursor: pointer;
+}
+
+.red-key.active {
+  background-color: #C0C0C0;
+}
+
+.white-key {
+  width: 50px;
+  height: 100px;
+  background-color: white;
+  border: 4px solid black;
+  border-radius: 0 0 6px 6px;
+  margin-left: -10px;
+  outline: none;
+  cursor: pointer;
+}
+
+.white-key.active {
+  background-color:#C0C0C0;
+}
+
+.Db4-key {
+  left: 22px;
+}
+
+.Eb4-key {
+  left: 58px;
+}
+
+.Gb4-key {
+  left: 130px;
+}
+
+.Ab4-key {
+  left: 166px;
+}
+
+.Bb4-key {
+  left: 202px;
+}
+
+.Db5-key {
+  left: 274px;
+}
+
+.Eb5-key {
+  left: 310px;
+}
